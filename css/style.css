@@ -1,0 +1,160 @@
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1,h2,h3,h4 {
+	font-family: Montserrat;
+}
+
+body{
+	font-family: Roboto
+}
+:root{
+	--color-negro:#2D2D2D;
+	--colo-contenido:#898989;
+	--color-verde:#72b529;
+	--fondo-gris:#FAFAFA;
+	--fondo-clients:#F7F7F7;
+	--fondo-footer:#2c2e2e;
+	--color-footer:#888888;
+	--menu-hover:#2293D7;
+}
+header{
+	
+	padding: 0px 0;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 0px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+#cta{
+	background-color: #72b529;
+	color: #FFF;
+	padding: 50px 0;
+	text-align: center;
+}
+#cta h2{
+	display: inline;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-right: 20px;
+	margin-bottom: 0;
+  	vertical-align: middle;
+}
+#cta .btn{
+	font-size: 13px;
+	border-width: 2px;;
+	background-color: transparent;
+	padding: 10px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+section {
+	padding: 5%;
+}
+
+p {
+	
+	font-size: 10px;
+}
+
+h3 {
+	
+	font-size: 10px;
+}
+
+.btn {
+	border-radius: 40px;
+	color: #fff;
+	border-color: #fff;
+	padding: 0 2% 0 2% ;
+}
+
+.creen {
+	background-color: var(--color-verde);
+	color:#fff;
+	
+}
+
+#Hero {
+	background-image: url("../img/hero_oshine_v6.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.65);
+	background-blend-mode: multiply;
+	padding: 10% 0;
+	color: #fff;
+	
+}
+
+#Hero p {
+	flex-wrap:wrap ;
+}
+
+#About {
+	align-content: center;
+	
+}
+
+#About h2 {text-align: center;}
+
+#Results {
+	ckground-color: var(--fondo-gris);
+	
+}
+
+
+#Clients {
+	
+	background-color: var(--fondo-clients);
+	
+}
+
+#Clients div article {
+	padding: 7%;
+}
+
+#Testimonial {
+	background-image: url("../img/oshine-testi.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.65);
+	background-blend-mode: multiply;
+	padding: 10% 0;
+	
+	color: #fff;
+}
+
+#Testimonial p,h3 {padding: 2%;}
+
+
+.fixed-top {
+	position: absolute;
+}
+
+
+
+
+
+
