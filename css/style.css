@@ -139,19 +139,37 @@ h3 {
 	background-image: url("../img/oshine-testi.jpeg");
 	background-size: cover;
 	background-position: center;
-	background-color: rgba(0,0,0,0.65);
+	background-color: rgba(0,0,0,0.10);
 	background-blend-mode: multiply;
 	padding: 10% 0;
 	
 	color: #fff;
 }
 
-#Testimonial p,h3 {padding: 2%;}
+.paddingapos {padding: 0% 3% 1% 3%;}
+#Testimonial p {
+	font-size: 30px;
+	padding: 3%;
+}
 
+#Testimonial h3 {
+	color : var(--color-verde);
+	font-size: 60px;
+}
 
 .fixed-top {
 	position: absolute;
 }
+
+.iconus {
+	color: var(--color-verde);
+}
+
+.extrapad {padding: 3% 0 3% 0;}
+
+.collocartipo {font-size: 10px!important;
+color: #fff!important;}
+
 
 
 
