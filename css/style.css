@@ -19,6 +19,10 @@ h1,h2,h3,h4 {
 	font-family: Montserrat;
 }
 
+h1 {font-weight: 900;}
+
+h2 {font-weight: 700;}
+
 body{
 	font-family: Roboto
 }
@@ -76,12 +80,15 @@ section {
 
 p {
 	
-	font-size: 10px;
+	font-size: 15px;
+	color:  var(--color-negro);
 }
 
 h3 {
 	
-	font-size: 10px;
+	font-size: 18px;
+	color:  var(--color-negro);
+	font-weight: 700;
 }
 
 .btn {
@@ -170,6 +177,11 @@ h3 {
 .collocartipo {font-size: 10px!important;
 color: #fff!important;}
 
+.greenn {
+	color: var(--color-verde);
+}
+
+.clorp {color: #fff!important;}
 
 
 
